@@ -3,3 +3,4 @@
 F<-head(tData)*(180/100)+32
 r<-(tData)*(180/100)+32
 mean(r)
+##comment
