@@ -48,3 +48,6 @@ max(total)
 
 #In general the higher temperatures are more recent. If the number is higher than 65.5 that means it occurs more recently. First the min temperature is printed and then the max
 
+#EX 3
+colnames(g)[c(1,2,3,4,5,6,7,8,9,10,11,12)]<-c("Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec")
+print(g)
