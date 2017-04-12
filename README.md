@@ -23,9 +23,27 @@ mean(r)
 > mean(g[,11])
 > mean(g[,12])
 
+
 #Lowest within each month 
 > apply(g, 2, min)
 #Lowest within each month 
 > apply (g, 2, max)
+
+#lowest total
+j<-mean(g[,1])
+f<-mean(g[,2])
+m<-mean(g[,3])
+a<-mean(g[,4])
+ma<-mean(g[,5])
+ju<-mean(g[,6])
+jul<-mean(g[,7])
+au<-mean(g[,8])
+s<-mean(g[,9])
+o<-mean(g[,10])
+n<-mean(g[,11])
+d<-mean(g[,12])
+total<-c(j,f,m,a,ma,ju,jul,au,s,o,n,d)
+min(total)
+max(total)
 
 #In general the higher temperatures are more recent. If the number is higher than 65.5 that means it occurs more recently. First the min temperature is printed and then the max
