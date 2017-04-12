@@ -51,3 +51,4 @@ max(total)
 #EX 3
 colnames(g)[c(1,2,3,4,5,6,7,8,9,10,11,12)]<-c("Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec")
 print(g)
+rownames(g)[c(1:132)]<-c(1880:2017)
