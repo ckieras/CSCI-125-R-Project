@@ -47,3 +47,4 @@ min(total)
 max(total)
 
 #In general the higher temperatures are more recent. If the number is higher than 65.5 that means it occurs more recently. First the min temperature is printed and then the max
+
