@@ -23,5 +23,9 @@ mean(r)
 > mean(g[,11])
 > mean(g[,12])
 
+#Lowest within each month 
+> apply(g, 2, min)
+#Lowest within each month 
+> apply (g, 2, max)
 
 #In general the higher temperatures are more recent. If the number is higher than 65.5 that means it occurs more recently. First the min temperature is printed and then the max
