@@ -26,7 +26,7 @@ mean(r)
 
 #Lowest within each month 
 > apply(g, 2, min)
-#Lowest within each month 
+#Highest within each month 
 > apply (g, 2, max)
 
 #lowest total
