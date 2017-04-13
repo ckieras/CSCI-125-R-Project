@@ -46,7 +46,19 @@ total<-c(j,f,m,a,ma,ju,jul,au,s,o,n,d)
 min(total)
 max(total)
 
-#In general the higher temperatures are more recent. If the number is higher than 65.5 that means it occurs more recently. First the min temperature is printed and then the max
+print("Yes, there are temperatures that occurred more recently. Any number that is higher than 66 in the vector below means that the year of that temperature is more recent. There are 8 months that have had the highest temperature occur more recently.")
+apply(g,2,which.max)
+
+rownames(g)[c(1:132)]<-c(1880:2017)
+colnames(g)[c(1,2,3,4,5,6,7,8,9,10,11,12)]<-c("Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec")
+
+#whenoccurred<-function(index) {
+ #k<-arrayInd(index, dim(g))
+ #t<-mapply(`[[`, dimnames(g), k)
+ #return(t)
+ #}
+#whenoccurred(forfunction)
+
 
 #EX 3
 rownames(g)[c(1:132)]<-c(1880:2017)
