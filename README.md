@@ -52,4 +52,11 @@ max(total)
 rownames(g)[c(1:132)]<-c(1880:2017)
 colnames(g)[c(1,2,3,4,5,6,7,8,9,10,11,12)]<-c("Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec")
 print(g)
+#indextoyear function takes the input as a vector and then searches the matrix
+indextoyear<-function(m) {
+  k <- arrayInd(m, dim(g))
+  t<-mapply(`[[`, dimnames(g), k)
+  return(t)
+}
+indextoyear(133)
 
