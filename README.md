@@ -1,7 +1,7 @@
 # CSCI-125-R-Project
 ##EX 1
-F<-head(tData)*(180/100)+32
-r<-(tData)*(180/100)+32
+f<-tData/100
+r<-f*(9/5)+57.2
 mean(r)
 #her directions were a little strange and didn't correspond totally to the website, so this might be wrong but according to her directions it is right?
 
