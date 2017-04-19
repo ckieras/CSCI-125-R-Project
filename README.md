@@ -1,7 +1,7 @@
 # CSCI-125-R-Project
 ##EX 1
 f<-tData/100
-r<-f*(9/5)+57.2
+r<-f*(9/5)+32
 mean(r)
 #her directions were a little strange and didn't correspond totally to the website, so this might be wrong but according to her directions it is right?
 
