@@ -72,3 +72,6 @@ indextoyear<-function(m) {
 }
 indextoyear(133)
 
+#EX 4
+plot(1880:2011,g[,1], xlab='year', ylab ='temp')
+#needs to be done for each month
