@@ -92,7 +92,7 @@ plot(1880:2011,g[,10], xlab='year', ylab ='temp')
 plot(1880:2011,g[,11], xlab='year', ylab ='temp')
 plot(1880:2011,g[,12], xlab='year', ylab ='temp')
 
-Does there seem to be a warming trend in your graphs? Type your answer below:
+Does there seem to be a warming trend in your graphs? Type your answer below: 
 
 ##EX 5
 lk<-apply(g, 1, mean)
