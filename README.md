@@ -117,5 +117,7 @@ Is it easier to see a warming trend? What is the average temperature of these 13
 Yes, with the exception of an outlier (2002). Average temperature within these years is 57.2 degrees F
 
 ##EX 8
+plot(1:108, g[112:120,], xlab='years 1990-1999', ylab='temp')
 
 Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
+yes
