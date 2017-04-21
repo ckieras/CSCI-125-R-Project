@@ -97,3 +97,11 @@ Does there seem to be a warming trend in your graphs? Type your answer below:
 ##EX 5
 lk<-apply(g, 1, mean)
 plot(1880:2011,lk, xlab='year', ylab ='temp')
+#Finds the highest average temperature for all years
+max(lk)
+match (57.3455,lk)
+indextoyear(123)
+##Finds the lowest average temperature for all years
+min(lk)
+match(56.978,lk)
+indextoyear(30)
