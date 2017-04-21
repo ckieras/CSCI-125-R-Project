@@ -71,6 +71,12 @@ indextoyear<-function(m) {
   return(t)
 }
 indextoyear(133)
+yeartoindex<-function(y,m) {
+  u<-(g[y,m])
+  r<-(match(u,g))
+  return(r)
+}
+yeartoindex("1881","Jan")
 
 #EX 4
 plot(1880:2011,g[,1], xlab='year', ylab ='temp')
