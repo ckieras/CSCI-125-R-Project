@@ -113,3 +113,5 @@ Yes; there is an positive linear trend from 2000 to 2011 (temperatures are risin
 
 ##EX 7
 plot(0:11,lk[121:132], xlab='year (2000-2011)', ylab ='temp')
+Is it easier to see a warming trend? What is the average temperature of these 13 years?
+Yes, with the exception of an outlier (2002). Average temperature within these years is 57.2 degrees F
