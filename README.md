@@ -105,3 +105,6 @@ indextoyear(123)
 min(lk)
 match(56.978,lk)
 indextoyear(30)
+
+##EX 6
+plot(1:144,g[121:132,],xlab='year', ylab='temp')
