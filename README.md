@@ -94,7 +94,7 @@ plot(1880:2011,g[,11], xlab='year', ylab ='temp')
 plot(1880:2011,g[,12], xlab='year', ylab ='temp')
 
 Does there seem to be a warming trend in your graphs? Type your answer below: 
-
+Yes, temperatures seem to be rising for each month.
 ##EX 5
 lk<-apply(g, 1, mean)
 plot(1880:2011,lk, xlab='year', ylab ='temp')
@@ -112,12 +112,13 @@ Highest: 2002
 Lowest: 1909
 
 ##EX 6
-plot(0:11,lk[121:132], xlab='year (2000-2011)', ylab ='temp')
+kk<-apply(g2,1,mean)
+plot(0:11,kk[121:132], xlab='year (2000-2011)', ylab ='temp')
 Do you see any pattern to the data? Are temperatures rising? 
 Yes; there is an positive linear trend from 2000 to 2011 (temperatures are rising).
 
 ##EX 7
-plot(0:11,lk[121:132], xlab='year (2000-2011)', ylab ='temp')
+plot(0:11,kk[121:132], xlab='year (2000-2011)', ylab ='temp')
 Is it easier to see a warming trend? What is the average temperature of these 13 years?
 Yes, with the exception of an outlier (2002). Average temperature within these years is 57.2 degrees F
 
