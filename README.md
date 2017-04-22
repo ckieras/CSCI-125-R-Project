@@ -126,6 +126,5 @@ plot(1:108, g[112:120,], xlab='years 1990-1999', ylab='temp')
 
 Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
 yes
-Lowest: March 1997
-Highest: December 1994 and December 1995
+
 
