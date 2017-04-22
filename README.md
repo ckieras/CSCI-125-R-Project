@@ -106,6 +106,10 @@ min(lk)
 match(56.978,lk)
 indextoyear(30)
 
+In what year did the highest and lowest temperatures occur?
+Highest: 2002
+Lowest: 1909
+
 ##EX 6
 plot(0:11,lk[121:132], xlab='year (2000-2011)', ylab ='temp')
 Do you see any pattern to the data? Are temperatures rising? 
