@@ -95,6 +95,8 @@ plot(1880:2011,g[,12], xlab='year', ylab ='temp')
 
 Does there seem to be a warming trend in your graphs? Type your answer below: 
 Yes, temperatures seem to be rising for each month.
+
+
 ##EX 5
 lk<-apply(g, 1, mean)
 plot(1880:2011,lk, xlab='year', ylab ='temp')
@@ -134,4 +136,12 @@ Highest December 1993 and December 1994
 w<-apply(g[111:120,],1,mean)
 plot(1:10,w,xlab="year", ylab="temp")
 
+##EX 10
+#Plot the monthly average temperature of every month in the 1890s.
 
+#What is the mean temperature of this decade? How does this decade compare to the 1990s?
+
+##EX 10
+#Create plots of the monthly averages of the first 44 years, the second 44 years, and the last 43 years. Remember to use the previously defined functions!
+
+#Do you see any warming trends in any of these plots? What is the average temperature of each of these time periods?
