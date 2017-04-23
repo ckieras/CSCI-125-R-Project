@@ -126,7 +126,7 @@ Yes, with the exception of an outlier (2002). Average temperature within these y
 plot(1:108, g[112:120,], xlab='years 1990-1999', ylab='temp')
 
 Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
-yes
+Yes; we do see a pattern to the data.
 Lowest March 1997
 Highest December 1993 and December 1994
 
