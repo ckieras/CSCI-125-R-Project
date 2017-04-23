@@ -135,7 +135,10 @@ Highest December 1993 and December 1994
 ##EX 9
 w<-apply(g[111:120,],1,mean)
 plot(1:10,w,xlab="year", ylab="temp")
+apply(w,2,mean)
 
+Is it easier to see a warming trend? What is the average temperature of the 1990s?
+The mean temperature is 57.8507. Yes, there is a warming trend in the 1990s.
 ##EX 10
 #Plot the monthly average temperature of every month in the 1890s.
 
