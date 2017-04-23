@@ -114,10 +114,9 @@ Highest: 2002
 Lowest: 1909
 
 ##EX 6
-kk<-apply(g2,1,mean)
-plot(0:11,kk[121:132], xlab='year (2000-2012)', ylab ='temp')
+plot(1:144,g[121:132,], xlab='year (2000-2012)', ylab ='temp')
 Do you see any pattern to the data? Are temperatures rising? 
-Yes; there is an positive linear trend from 2000 to 2011 (temperatures are rising).
+Yes; there is an positive linear trend from 2000 to 2012 (temperatures are rising).
 
 ##EX 7
 plot(0:11,kk[121:132], xlab='year (2000-2012)', ylab ='temp')
