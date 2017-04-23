@@ -129,3 +129,9 @@ Do you see any pattern to the data? Are temperatures rising? Which months had th
 yes
 Lowest March 1997
 Highest December 1993 and December 1994
+
+##EX 9
+w<-apply(g[111:120,],1,mean)
+plot(1:10,w,xlab="year", ylab="temp")
+
+
