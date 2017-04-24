@@ -157,6 +157,12 @@ plot(1:528, g[1:44,], xlab='months in 1880-1923', ylab='temp')
 plot(529:1056, g[45:88,], xlab='months in 1924-1967', ylab='temp')
 plot(1057:1584,g[89:132,],xlab='Number of Months Starting Jan 1968-2011', ylab='temp')
 
+mean(g[1:44,])
+mean(g[45:88,])
+mean(g[89:132,])
 
 #Do you see any warming trends in any of these plots? What is the average temperature of each of these time periods?
 Between the graphs there is a warming trend. Intitially the temperature starts out in the 57s and then escalates to the 58s.
+Average temperature for years 1880-1923: 56.67892
+Average temperature for years 1924-1967: 57.09272
+Average temperature for years 1968-2011: 57.74467
