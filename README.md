@@ -128,12 +128,14 @@ Is it easier to see a warming trend? What is the average temperature of these 13
 We are relunctant to generalize, based on such a short time span, but within this time span there are generally more years having a higher temperature than the average within 2000-2012. Average temperature within these years is 58.23963 degrees F
 
 ##EX 8
-plot(1:108, g[111:120,], xlab='years 1990-1999', ylab='temp')
-
+plot(1:120,g[111:120,],xlab='Number of Months Starting Jan 1990', ylab='temp')
+min(g[111:120,])
+max(g[111:120,])
+print(g[111:120,])
 Do you see any pattern to the data? Are temperatures rising? Which months had the highest and lowest temperatures?
-Yes; we do see a pattern to the data.
-Lowest March 1997
-Highest December 1993 and December 1994
+There isn't a significant pattern to the data, and we attribute this to the small amount of time that we are plotting.
+Lowest September 1991
+Highest Februrary 1997
 
 ##EX 9
 w<-apply(g[111:120,],1,mean)
