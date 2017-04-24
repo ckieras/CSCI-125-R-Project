@@ -153,5 +153,7 @@ The mean temperature for the 1890s is: 56.7383. In the 1890s all of the temperat
 
 ##EX 10
 #Create plots of the monthly averages of the first 44 years, the second 44 years, and the last 43 years. Remember to use the previously defined functions!
+plot(1:528, g[1:44,], xlab='months in 1880-1922', ylab='temp')
+plot(529:1056, g[45:88,], xlab='months in 1923-1967', ylab='temp')
 
 #Do you see any warming trends in any of these plots? What is the average temperature of each of these time periods?
