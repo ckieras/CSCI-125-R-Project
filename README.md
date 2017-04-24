@@ -168,4 +168,4 @@ Average temperature for years 1924-1967: 57.09272
 Average temperature for years 1968-2011: 57.74467
 
 ##For exemplary status on this project, your team needs to go beyond the above requirements and engage a bit further with this data or other related data. Please consider posing one additional question and then answering it with the data. Be sure to explain why this question is important and how you came to the conclusions you drew.
-
+Question: 
