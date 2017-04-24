@@ -168,6 +168,7 @@ Average temperature for years 1924-1967: 57.09272
 Average temperature for years 1968-2011: 57.74467
 
 ##For exemplary status on this project, your team needs to go beyond the above requirements and engage a bit further with this data or other related data. Please consider posing one additional question and then answering it with the data. Be sure to explain why this question is important and how you came to the conclusions you drew.
-Question: What happens when you plot the year 1880 and 2011 with nothing in between?
+Question: What happens when you plot the data only for years 1880 and 2011 (with nothing in between)?
 plot(1:24,g[-(2:131),],xlab='year 1880 and 2011', ylab='temp')
-This shows both years on top of each other, and there's a difference of about 1 degree
+This shows both years on top of each other, and there's a difference if about 1 degree
+Significance: This question is important because it offers a macro-approach of data examination. This project has demonstrated to us that fluctuations in weather temperature are pretty marginal, even across a span of ten years, but in increasing the range of time larger trends can be discerned. 
