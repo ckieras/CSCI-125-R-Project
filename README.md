@@ -159,3 +159,4 @@ plot(1057:1584,g[89:132,],xlab='Number of Months Starting Jan 1968-2011', ylab='
 
 
 #Do you see any warming trends in any of these plots? What is the average temperature of each of these time periods?
+Between the graphs there is a warming trend. Intitially the temperature starts out in the 57s and then escalates to the 58s.
