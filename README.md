@@ -146,10 +146,11 @@ Is it easier to see a warming trend? What is the average temperature of the 1990
 Yes, the second half of the 1990s, compared to the first half of the 1990s, in generally warmer. So, there is a warming trend in the 1990s.The mean temperature is 57.8507.
 ##EX 10
 plot(1:120, g[11:20,], xlab='months in 1890-1899', ylab='temp')
-
+mean(g[11:20,])
 #What is the mean temperature of this decade? How does this decade compare to the 1990s?
 
-In the 1890s all of the temperatures are less than the temperatures from the 1990s. There is a definite warming trend (roughly 1.5 degrees on average higher).
+The mean temperature for the 1890s is: 56.7383. In the 1890s all of the temperatures are less than the temperatures from the 1990s. There is a definite warming trend (roughly 1.5 degrees on average higher).
+
 ##EX 10
 #Create plots of the monthly averages of the first 44 years, the second 44 years, and the last 43 years. Remember to use the previously defined functions!
 
