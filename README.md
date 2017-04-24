@@ -125,7 +125,7 @@ q<-matrix(apply(g[121:132,], 1,mean))
 apply(q,2,mean)
 
 Is it easier to see a warming trend? What is the average temperature of these 13 years?
-We are relunctant to generalize, based on such a short time span, but within this time span there are generally more years having "higher" temperatures than "lower". Average temperature within these years is 58.23963 degrees F
+We are relunctant to generalize, based on such a short time span, but within this time span there are generally more years having a higher temperature than the average within 2000-2012. Average temperature within these years is 58.23963 degrees F
 
 ##EX 8
 plot(1:108, g[111:120,], xlab='years 1990-1999', ylab='temp')
