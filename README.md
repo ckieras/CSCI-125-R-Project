@@ -8,7 +8,6 @@ mean(r)
 ##Ex.2
 > fam<-as.matrix(r)
 > g <- matrix(fam, byrow=T, ncol=12)
-> g2 <- matrix(fam, ncol=12)
 > print(g)
 
 > mean(g[,1])
