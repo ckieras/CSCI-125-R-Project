@@ -116,10 +116,10 @@ Lowest: 1909
 ##EX 6
 plot(1:144,g[121:132,], xlab='year (2000-2012)', ylab ='temp')
 Do you see any pattern to the data? Are temperatures rising? 
-Yes; there is an positive linear trend from 2000 to 2012 (temperatures are rising).
+Yes; there is greater variation in the earilier part of the time span, and in the later part of the data there is more consistency and less variation. They are more concentrated around a higher temperature. 
 
 ##EX 7
-plot(0:11,kk[121:132], xlab='year (2000-2012)', ylab ='temp')
+plot(1:12,apply(g[121:132,], 1,mean), xlab='year (2000-2012)', ylab ='temp')
 Is it easier to see a warming trend? What is the average temperature of these 13 years?
 Yes, with the exception of an outlier (2002). Average temperature within these years is 57.2 degrees F
 
