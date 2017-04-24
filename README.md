@@ -114,7 +114,7 @@ Highest: 2002
 Lowest: 1909
 
 ##EX 6
-plot(1:144,g[121:132,], xlab='year (2000-2012)', ylab ='temp')
+plot(1:144,g[121:132,], xlab='year (2000-2011)', ylab ='temp')
 Do you see any pattern to the data? Are temperatures rising? 
 Yes; there is greater variation in the earilier part of the time span, and in the later part of the data there is more consistency and less variation. They are more concentrated around a higher temperature. 
 
@@ -125,7 +125,7 @@ q<-matrix(apply(g[121:132,], 1,mean))
 apply(q,2,mean)
 
 Is it easier to see a warming trend? What is the average temperature of these 13 years?
-We are relunctant to generalize, based on such a short time span, but within this time span there are generally more years having a higher temperature than the average within 2000-2012. Average temperature within these years is 58.23963 degrees F
+We are relunctant to generalize, based on such a short time span, but within this time span there are generally more years having a higher temperature than the average within 2000-2011. Average temperature within these years is 58.23963 degrees F
 
 ##EX 8
 plot(1:120,g[111:120,],xlab='Number of Months Starting Jan 1990', ylab='temp')
@@ -153,7 +153,9 @@ The mean temperature for the 1890s is: 56.7383. In the 1890s all of the temperat
 
 ##EX 10
 #Create plots of the monthly averages of the first 44 years, the second 44 years, and the last 43 years. Remember to use the previously defined functions!
-plot(1:528, g[1:44,], xlab='months in 1880-1922', ylab='temp')
-plot(529:1056, g[45:88,], xlab='months in 1923-1967', ylab='temp')
+plot(1:528, g[1:44,], xlab='months in 1880-1923', ylab='temp')
+plot(529:1056, g[45:88,], xlab='months in 1924-1967', ylab='temp')
+plot(1057:1584,g[89:132,],xlab='Number of Months Starting Jan 1968-2011', ylab='temp')
+
 
 #Do you see any warming trends in any of these plots? What is the average temperature of each of these time periods?
